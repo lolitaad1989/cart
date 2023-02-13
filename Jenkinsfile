@@ -1,2 +1,4 @@
 @Library('robot-shared-library') _
-nodejs("cart")
+env.COMPONENT="cart"
+env.APP="nodejs"
+nodejs()
